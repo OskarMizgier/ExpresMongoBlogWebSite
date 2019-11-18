@@ -2,3 +2,7 @@ i.icon {
 	font-size: 1.5em;
 	padding-right: 20px;
 }
+
+#delete {
+	display: inline;
+}
