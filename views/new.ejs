@@ -7,17 +7,17 @@
 	<form action='/blogs' method='POST' class="ui form">
   <div class="field">
     <label>Please enter your name</label>
-    <input type="text" name="blog[title]" placeholder="Full Name">
+    <input required type="text" name="blog[title]" placeholder="Full Name">
   </div>
 		  <div class="field">
     <label>Please enter the image URL</label>
-    <input type="text" name="blog[image]" placeholder="Image URL">
+    <input required type="text" name="blog[image]" placeholder="Image URL">
   </div>
 		<div class="field">
     <label>Text</label>
-    <textarea name='blog[body]' rows="25"></textarea>
+    <textarea required name='blog[body]' rows="25"></textarea>
   </div>
-  <button class="ui button" type="submit">Add a new Blog Post!</button>
+    <button class="ui purple  basic button">Add your new post!</button>
 </form>
 </div>
 
